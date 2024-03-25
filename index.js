@@ -6,7 +6,7 @@
 
 let userPreference = 'Sugar-free'; 
 let preferredEnergyDrink = userPreference === 'Sugar-free' ? 'Sugar-free' : 'Regular'; // Possible values: 'Regular', 'Sugar-free', or undefined
-console.log(`Preferred energy drink: ${preferredEnergyDrink}`);
+console.log(preferredEnergyDrink);
 
 
 // #### Challenge 2: Stock Check
@@ -43,7 +43,7 @@ console.log(result);
 
 // Define the current hour in 24-hour format
 let currentHour = 22; 
-let time = currentHour <= 7 ? "Better stick to water." : "Unleash the beast!";
+let time = currentHour >= 7 ? "Better stick to water." : "Unleash the beast!";
 console.log(time);
 
 
